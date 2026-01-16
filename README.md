@@ -39,55 +39,100 @@
 <!-- About Me Section with Custom Design -->
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif? cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32px"> Về Tôi
 
-```typescript
-interface Developer {
-  name:  string;
-  role: string;
-  location: string;
-  languages: string[];
-  code:  string[];
-  askMeAbout: string[];
-  technologies:  {
-    frontEnd: {
-      js: string[];
-      css: string[];
-    };
-    backEnd: string[];
-    mobileApp: string[];
-    ai: string[];
-    devOps: string[];
-    databases: string[];
-  };
-  architecture: string[];
-  currentFocus: string[];
-  funFact: string;
-}
+<table>
+<tr>
+<td>
 
-const coDY: Developer = {
-  name: "Võ Duy Bình",
-  role: "Multi-talented Tech Professional",
-  location: "Ho Chi Minh City, Vietnam 🇻🇳",
-  languages: ["Vietnamese", "English"],
-  code: ["JavaScript", "TypeScript", "Python", "Java", "C++", "Go"],
-  askMeAbout:  ["Web Dev", "AI/ML", "App Dev", "Digital Marketing", "Content Creation"],
-  
-  technologies: {
-    frontEnd: {
-      js: ["React", "Next.js", "Vue.js", "Angular", "Svelte"],
-      css: ["Tailwind", "Bootstrap", "Material-UI", "Sass"]
-    },
-    backEnd:  ["Node.js", "Express", "Django", "FastAPI", "Spring Boot"],
-    mobileApp: ["React Native", "Flutter", "Swift", "Kotlin"],
-    ai: ["TensorFlow", "PyTorch", "OpenAI", "LangChain", "Hugging Face"],
-    devOps: ["Docker", "Kubernetes", "AWS", "Azure", "CI/CD", "Nginx"],
-    databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase"],
-  },
-  
-  architecture: ["Microservices", "RESTful API", "GraphQL", "Serverless"],
-  currentFocus:  ["AI Integration", "Cloud Architecture", "Performance Optimization"],
-  funFact: "I turn coffee into code ☕ → 💻 → 🚀"
-};
-```
+### 👨‍💻 Thông tin cơ bản
+
+- 🧑 **Tên:** Võ Duy Bình
+- 💼 **Vai trò:** Multi-talented Tech Professional
+- 📍 **Địa điểm:** Ho Chi Minh City, Vietnam 🇻🇳
+- 🗣️ **Ngôn ngữ:** Vietnamese, English
+- 💻 **Ngôn ngữ lập trình:** JavaScript, TypeScript, Python, Java, C++, Go
+
+</td>
+<td>
+
+### 🎯 Chuyên môn
+
+- 🌐 **Web Development** (Full Stack)
+- 🤖 **AI/ML** (Machine Learning & Deep Learning)
+- 📱 **App Development** (Mobile & Cross-platform)
+- 📈 **Digital Marketing** (SEO, SEM, Social Media)
+- 🎬 **Content Creation** (Video, Blog, Social Media)
+
+</td>
+</tr>
+</table>
+
+### 🛠️ Công nghệ tôi sử dụng
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+#### Frontend
+- ⚛️ React, Next.js, Vue.js
+- 🅰️ Angular, Svelte
+- 🎨 Tailwind, Bootstrap, Material-UI, Sass
+
+</td>
+<td valign="top" width="33%">
+
+#### Backend
+- 🟢 Node.js, Express
+- 🐍 Django, FastAPI
+- ☕ Spring Boot
+
+</td>
+<td valign="top" width="33%">
+
+#### Mobile & AI
+- 📱 React Native, Flutter
+- 🤖 TensorFlow, PyTorch
+- 🧠 OpenAI, LangChain, Hugging Face
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="33%">
+
+#### DevOps
+- 🐳 Docker, Kubernetes
+- ☁️ AWS, Azure
+- 🔄 CI/CD, Nginx
+
+</td>
+<td valign="top" width="33%">
+
+#### Databases
+- 🍃 MongoDB
+- 🐘 PostgreSQL, MySQL
+- 🔴 Redis, Firebase
+
+</td>
+<td valign="top" width="33%">
+
+#### Architecture
+- 🏗️ Microservices
+- 🔌 RESTful API, GraphQL
+- ⚡ Serverless
+
+</td>
+</tr>
+</table>
+
+### 🎯 Hiện tại đang tập trung vào
+
+- 🤖 AI Integration
+- ☁️ Cloud Architecture
+- ⚡ Performance Optimization
+
+### ⚡ Fun Fact
+
+> 💡 I turn coffee into code ☕ → 💻 → 🚀
+
 
 <details>
 <summary><b>📊 Thông tin chi tiết</b></summary>
